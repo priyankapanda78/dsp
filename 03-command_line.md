@@ -66,7 +66,7 @@ Explore these other [ls options](http://www.techonthenet.com/unix/basic/ls.php) 
 
 What does `xargs` do? Give an example of how to use it.
 
-> > 
+> > 'xargs' reads data from standard input and execute the commands one or more times based on the standard input. xargs can be used to find different types of file in a directory like ".txt",".log",".tmp" files.
 
  
 
