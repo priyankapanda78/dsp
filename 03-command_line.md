@@ -20,8 +20,16 @@ Here's a list of items with which you should be familiar:
 
 Make a cheat sheet for yourself: a list of at least **ten** commands and what they do.  (Use the 8 items above and add a couple of your own.)  
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
-
+> > * show current working directory path: pwd
+* creating a directory: mkdir directory_name
+* deleting a directory: rmdir directory_name
+* creating a file using `touch` command: touch filename
+* deleting a file: rm filename
+* renaming a file: mv filename1 filename2
+* listing hidden files: ls -a
+* copying a file from one directory to another: cp directory1/filename directory2
+* moving file: mv filename directory/
+* Find(search) words in files: grep word filename
 ---
 
 ### Q2.  List Files in Unix   
@@ -35,7 +43,14 @@ What do the following commands do:
 `ls -t`  
 `ls -Glp`  
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+> > 
+`ls` : list all the files and directories in working directory  
+`ls -a`  : lists all contents including hidden files and directories
+`ls -l`  : lists all contents of a directory in long format
+`ls -lh` : lists files in human readable format
+`ls -lah`: lists all the files in human readable format including hidden files.
+`ls -t`  : orders the files and directories based on time they were last modified
+`ls -Glp`: lists the files in long format but exclude owner name,and display directories with /.
 
 ---
 
@@ -43,7 +58,7 @@ What do the following commands do:
 
 Explore these other [ls options](http://www.techonthenet.com/unix/basic/ls.php) and pick 5 of your favorites:
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+> > ls -a,ls -t,ls -g,ls -r,ls -l
 
 ---
 
@@ -51,7 +66,7 @@ Explore these other [ls options](http://www.techonthenet.com/unix/basic/ls.php) 
 
 What does `xargs` do? Give an example of how to use it.
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+> > 
 
  
 
