@@ -51,7 +51,7 @@ What do the following commands do:
 * ls -lh : lists files in human readable format
 * ls -lah: lists all the files in human readable format including hidden files.
 * ls -t  : orders the files and directories based on time they were last modified
-* ls -Glp : lists the files in long format but exclude owner name,and display directories with /.
+* ls -Glp : lists the files in long format but exclude group names,and display directories with /.
 
 ---
 
