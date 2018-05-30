@@ -45,13 +45,13 @@ What do the following commands do:
 `ls -Glp`  
 
 > > 
-*`ls` : list all the files and directories in working directory  
-*`ls -a`  : lists all contents including hidden files and directories
-*`ls -l`  : lists all contents of a directory in long format
-*`ls -lh` : lists files in human readable format
-*`ls -lah`: lists all the files in human readable format including hidden files.
-*`ls -t`  : orders the files and directories based on time they were last modified
-*`ls -Glp`: lists the files in long format but exclude owner name,and display directories with /.
+* ls : list all the files and directories in working directory  
+* ls -a  : lists all contents including hidden files and directories
+* ls -l  : lists all contents of a directory in long format
+* ls -lh : lists files in human readable format
+* ls -lah: lists all the files in human readable format including hidden files.
+* ls -t  : orders the files and directories based on time they were last modified
+* ls -Glp : lists the files in long format but exclude owner name,and display directories with /.
 
 ---
 
