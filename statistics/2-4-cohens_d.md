@@ -12,5 +12,5 @@ def WeightDifference(firsts,others):
     print(d)
     print(mean1)
     print(mean2)
-    ```
+    
 According to this above result, first babies are lighter than others. And in comparision to pregnancy length, first pregnancy length is longer than others for live babies.
