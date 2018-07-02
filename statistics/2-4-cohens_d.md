@@ -1,5 +1,6 @@
 [Think Stats Chapter 2 Exercise 4](http://greenteapress.com/thinkstats2/html/thinkstats2003.html#toc24) (Cohen's d)
-```def WeightDifference(firsts,others):
+```
+def WeightDifference(firsts,others):
     mean1 = firsts.totalwgt_lb.mean()
     mean2 = others.totalwgt_lb.mean()
     var1 = firsts.totalwgt_lb.var()
@@ -10,5 +11,6 @@
     d = diff / math.sqrt(pooled_var)
     print(d)
     print(mean1)
-    print(mean2)```
+    print(mean2)
+    ```
 According to this above result, first babies are lighter than others. And in comparision to pregnancy length, first pregnancy length is longer than others for live babies.
